@@ -6,16 +6,129 @@
 body{
   background: lightblue;
 }
+.member{
+  width:80%;
+  margin:50px auto;
+}
+h1{
+  margin-bottom:0px;
+}
+h2{
+  margin-top:0px;
+}
+.member__header{
+  width:100%;
+  height: 200px;
+  margin-bottom:50px;
+  /* border: 1px solid yellow; */
+}
 .member__heading{
-  font-size: 35px;
-  color : blue;
-  margin:50px;
+  /* font-size: 30px; */
+  color : #002366;
+  /* margin:50px; */
+  float:left;
+  width:49%;
+  /* border:2px solid yellow; */
+
 }
-.member__text{
-  background: blue;
+.member__para{
+  padding: 20px 20px 20px 0px;
+  font-size: 20px;
 }
+.member__img--div{
+  width: 50%;
+  float:right;
+
+  /* margin:50px; */
+
+  /* border:3px solid red; */
+}
+.member__img--coffee{
+  width: 300px;
+  margin-left: 440px;
+  /* margin-left:40px; */
+}
+
+.clearfix{
+  content:"";
+  clear:both;
+  display:table;
+}
+.member__form{
+  /*border: 1px solid white;*/
+  width: 100%;
+  padding: 50px;
+}
+.member__text, .member__select--support{
+  background: #002366;
+  height:30px;
+  width:200px;
+  color:white;
+  font-family: bold;
+  font-size: 18px;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+
 .member__label{
   font-size: 20px;
   margin : 50px;
-  color:blue;
+  color:#002366;
+}
+
+
+.member__hobbies{
+  margin-right: -20px;
+}
+
+.member__label--place{
+  margin-left:0px;
+
+}
+
+.member__text--place{
+  margin-right: 10px;
+
+  }
+
+.memeber__label--hobbies{
+  /* margin-left:-50px; */
+}
+
+/* .member__label{
+	margin-right: 50px;
+	line-height: 30px;
+
+} */
+
+
+
+.member__label--phone{
+	margin-right: 45px;
+
+}
+
+.member__select--support{
+  margin-left:30px;
+}
+.member__textarea{
+	border-radius: 8px;
+
+}
+
+.member__label--message{
+	margin-right: 25px;
+}
+.member__text--message{
+	border:2px solid #002366;
+}
+.member__submit{
+	width:120px;
+	height:35px;
+	background: #002366;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 17px;
+	color: white;
+  margin-left: 50px;
 }

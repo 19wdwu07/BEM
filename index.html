@@ -8,8 +8,15 @@
   </head>
   <body>
     <div class="member">
-      <h1 class="member__heading"> Membership Form</h1>
-
+      <div class="member__header clearfix">
+        <div class="member__heading">  <h1>Coffee Club <h1> <br/> <h2>Membership Form</h2>
+          <p class="member__para"> Coffee Club is a group of people in the community who wants to enjoy coffee while finding friends.
+            It includes students and working or retired members. Coffee club supports students in various ways. </p>
+        </div>
+        <div class="member__img--div">
+          <img class="member__img--coffee" src="images/coffee.jpg" alt="Coffee">
+        </div>
+     </div>
       <form class="member__form">
 
         <label for="name" class="member__label"> Name </label>
@@ -20,7 +27,52 @@
         <input type="text" id="email" class="member__text member__text--email"/>
         <br/> <br/>
 
-        </form
+      	<label for="phone" class="member__label member__label--phone"> Phone </label>
+    		<input type="text" id="phone" class="member__text member__text--phone">
+
+        <br/> <br/>
+        <label for="place" class="member__label "> Place </label>
+
+
+        <label for="place1" class="member__label  member__label--place"> Wellington </label>
+        <input type="radio" id="place1" name="place" class="member__text member__text--place">
+
+
+        <label for="place2" class="member__label  member__label--place"> Auckland </label>
+        <input type="radio" id="place2" name="place" class="member__text member__text--place">
+
+
+
+        <br/> <br/>
+        <label for="hobbies" class="member__label member__hobbies"> Hobbies </label>
+
+        <label for="hobby1" class="member__label  member__label--hobbies"> Cycling </label>
+        <input type="checkbox" id="hobby1" name="hobby" class="member__text member__text--hobbies">
+
+        <label for="hobby2" class="member__label  member__label--hobbies"> Watching TV </label>
+        <input type="checkbox" id="hobby2" name="hobby" class="member__text member__text--hobbies">
+
+        <label for="hobby3" class="member__label  member__label--hobbies"> Socializing </label>
+        <input type="checkbox" id="hobby3" name="hobby" class="member__text member__text--hobbies">
+
+        <br/> <br/>
+
+        <lable for="support" class="member__label  member__label--support"> Support </label>
+        <select name="support" class="member__select--support">
+          <option value="volvo">Educational</option>
+          <option value="saab">Financial</option>
+          <option value="fiat">Career</option>
+          <option value="audi">Life Skills</option>
+        </select>
+
+        <br/> <br/>
+        <label for="message" class="member__label member__label--message"> Message </label>
+        <textarea id="message" rows="7" cols="50" class="member__textarea member__text--message"> </textarea>
+
+        <br/> <br/> <br/>
+        <input type="submit" value="Submit" class="member__submit">
+
+      </form>
 
 
     </div>
